@@ -1,0 +1,96 @@
+/* popup.css */
+body {
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background: linear-gradient(to bottom, #220fb5, #e3e3e3);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align the container to the left */
+    justify-content: center;
+    height: 100%;
+  }
+  
+  header {
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Change the color to a darker shade */
+  }
+  
+  .changeColorBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #15cbe7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 20px;
+  }
+  
+  .changeColorBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .selectedColor {
+    display: flex;
+    align-items: center; /* Align items in the same line */
+    margin-bottom: 10px; /* Add some spacing between the color box and the hex code */
+  }
+  
+  .colorLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-right: 10px; /* Add some spacing between the label and the color box */
+  }
+  
+  .colorGrid {
+    width: 40px; /* Smaller width */
+    height: 40px; /* Smaller height */
+    border: 1px solid #333;
+    margin-right: 10px; /* Add some spacing between the color box and the hex code */
+    background-color: #fff; /* White background */
+  }
+  
+  .colorValueWrapper {
+    display: flex;
+    align-items: center; /* Align items in the same line */
+  }
+  
+  .colorValueTitle {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px; /* Add some spacing between the title and the hex code */
+  }
+  
+  .colorValue {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    color: #0f0b0b;
+    font-weight: bold;
+    padding: 5px 10px; /* Add padding to create a box */
+    border: 1px solid #333; /* Add a border to create a box */
+    border-radius: 5px; /* Add border-radius to create a box */
+  }
+  
+  /* Additional styling for the icon */
+  .changeColorBtn img {
+    width: 24px;
+    height: 24px;
+  }
+  

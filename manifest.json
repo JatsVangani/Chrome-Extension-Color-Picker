@@ -1,0 +1,20 @@
+{
+    "name":"Color picker",
+    "description":"An extension that provides you with color code",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "permissions":[
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "48":"/images/picker.png"
+    }
+}

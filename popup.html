@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Online Color Grabber</h1>
+    </header>
+    <main>
+      <button class="changeColorBtn" aria-label="Pick a color">
+        <div class="eye">Click here</div>
+        <img src="eyedropper.svg" alt="Pick Color">
+      </button>
+      <div class="selectedColor">
+        <div class="colorLabel">Selected Color</div>
+        <div class="colorGrid"></div>
+      </div>
+      <div class="colorValueWrapper">
+        <div class="colorValueTitle">HEX:</div>
+        <div class="colorValue">-</div>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
